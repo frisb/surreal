@@ -1,0 +1,34 @@
+{
+  "name": "surreal",
+  "description": "Simple and extensible serialization module for server and client",
+  "version": "0.1.0",
+  "contributors": [
+    {
+      "name": "Ashley Brener",
+      "url": "http://frisB.com"
+    }
+  ],
+  "main": "lib/surreal",
+  "engines": {
+    "node": ">= 0.8.x"
+  },
+  "devDependencies": {
+    "grunt": "^0.4.5",
+    "grunt-contrib-clean": "^0.6.0",
+    "grunt-contrib-coffee": "^0.10.1"
+  },
+  "homepage": "http://github.com/frisb/surreal",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/frisb/surreal"
+  },
+  "bugs": {
+    "url": "https://github.com/frisb/surreal/issues"
+  },
+  "license": "MIT",
+  "keywords": [
+    "surreal",
+    "serialize",
+    "serialization"
+  ]
+}
