@@ -54,7 +54,7 @@ npm install surreal
 
 #### client
 ``` html
-<script type="text/javascript" src="surreal.js"></script>
+<script type="text/javascript" src="lib/surreal.js"></script>
 ```
 
 ## License

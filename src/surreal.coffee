@@ -1,8 +1,6 @@
 ((factory) ->
   if (typeof(define) is 'function' && define.amd)
-    define ->
-      factory()
-      return
+    define -> factory()
   else if (typeof(module) isnt 'undefined' && typeof(module.exports) isnt 'undefined')
     module.exports = factory()
 
