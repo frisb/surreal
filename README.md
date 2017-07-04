@@ -1,60 +1,16 @@
-# Surreal [![Build Status](https://travis-ci.org/frisb/surreal.png)](http://travis-ci.org/frisb/surreal)
+# surreal 
+[![Build Status](https://travis-ci.org/frisb/surreal.png)](http://travis-ci.org/frisb/surreal)
+[![Dependency Status](https://gemnasium.com/frisb/surreal.svg)](https://gemnasium.com/frisb/surreal)
+[![Code Climate](https://codeclimate.com/github/frisb/surreal/badges/gpa.svg)](https://codeclimate.com/github/frisb/surreal)
+[![npm version](https://badge.fury.io/js/surreal.svg)](http://badge.fury.io/js/surreal)
 
-[![npm status badge](https://nodei.co/npm/surreal.png?stars=true&downloads=true)](https://nodei.co/npm/surreal/)
+Surreal maps javascript object properties to aliases for optimal serialized document storage.
 
-Surreal is a simple and extensible serialization module for server and client.
-
-All contributions are welcome.
-
-## Features
-* Extendible by inheriting Surreal.BaseSerializer.
-* Serializes functions.
-
-## Simple API
-
-#### Surreal.serialize(obj)
-
-* `obj` Object.
-
-Serializes the object into a JSON string.
-
-#### Surreal.deserialize(str)
-
-* `str` String.
-
-Deserializes the JSON string into an object.
-
-## Example Usage
-
-``` js
-var Surreal = require('surreal');
-
-var obj = {
-  key1: 'value1',
-  key2: 'value2',
-  func1: function () {
-    console.log('my function');
-  }
-};
-
-var str = Surreal.serialize(obj);
-console.log(str);
-
-var obj = Surreal.deserialize(str);
-console.log(obj);
-
-```
+This module is still early alpha and work is in progress. All contributions are welcome.
 
 ## Installation
-
-#### server
 ```
 npm install surreal
-```
-
-#### client
-``` html
-<script type="text/javascript" src="lib/surreal.js"></script>
 ```
 
 ## License
