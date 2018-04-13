@@ -13,8 +13,8 @@ export class ArraySerializer implements ISerializer<any, any> {
 		for (let i = 0, { length } = props; i < length; i++) {
 			let key = props[i];
 
-			if (!instance.hasOwnProperty(key))
-				throw new Error('Invalid instance property name');
+			if (instance.hasOwnProperty(key))
+				throw new Error(`Instance property name "${ key }" already exists`);
 
 			let val = instance[key];
 
