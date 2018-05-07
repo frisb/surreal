@@ -19,7 +19,7 @@ export function Surreal<TInstance, TRecord>(transformer: { new(...args: Array<an
 
 	return {
 		serializer,
-		serializable: function (target?: { new(...args: Array<any>): TInstance }): { new(...args: Array<any>): TInstance } {
+		serializable: function (target?: { new(...args: Array<any>): TInstance }): any {
 			if (!target)
 				target = <any> function fresh() { return; };
 
