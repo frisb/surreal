@@ -1,1 +1,1 @@
-{"version":3,"file":"ISerializer.js","sourceRoot":"","sources":["../../src/serializer/ISerializer.ts"],"names":[],"mappings":"","sourcesContent":["export interface ISerializer<TClass, TRecord> {\n\tserialize: (instance: TClass) => TRecord;\n\tdeserialize: (source: TRecord, instance: TClass) => void;\n}\n"]}
+{"version":3,"file":"ISerializer.js","sourceRoot":"","sources":["../../src/serializer/ISerializer.ts"],"names":[],"mappings":""}

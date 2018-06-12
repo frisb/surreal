@@ -1,1 +1,1 @@
-{"version":3,"file":"index.js","sourceRoot":"","sources":["../../src/serializer/index.ts"],"names":[],"mappings":";;;;;AACA,qCAAgC;AAChC,uCAAkC","sourcesContent":["export * from './ISerializer';\nexport * from './mapserializer';\nexport * from './arrayserializer';\n"]}
+{"version":3,"file":"index.js","sourceRoot":"","sources":["../../src/serializer/index.ts"],"names":[],"mappings":";;;AACA,0DAAgC;AAChC,4DAAkC"}

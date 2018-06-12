@@ -1,16 +1,22 @@
 {
   "compilerOptions": {
+    "declaration": true,
+    "declarationDir": "./lib",
     "emitDecoratorMetadata": true,
     "experimentalDecorators": true,
-    "inlineSources": true,
+    "inlineSources": false,
     "module": "commonjs",
     "moduleResolution": "node",
     "noImplicitAny": true,
     "sourceMap": true,
+    "rootDir": "./src",
+    "outDir": "./lib",
     "target": "es5",
     "watch": true,
-    "rootDir": "./src",
-    "outDir": "./lib"
+    "importHelpers": true,
+    "lib": [
+      "es2015"
+    ]
   },
   "exclude": ["node_modules"]
 }
