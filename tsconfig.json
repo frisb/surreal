@@ -15,7 +15,7 @@
     "watch": true,
     "importHelpers": true,
     "lib": [
-      "es2015"
+      "es2017"
     ]
   },
   "exclude": ["node_modules"]
